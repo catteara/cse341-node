@@ -1,0 +1,2 @@
+The layouts folder is not necessary for EJS. Layouts folder, and all .pug and .hbs left in folder for reference.
+Usually unused code would be removed to keep the code light and minimal.

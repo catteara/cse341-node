@@ -5,7 +5,14 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-app.set('view engine', 'pug');
+app.set('view engine', 'ejs');
+//handlebars set-up with .hbs
+    // app.engine(
+    //     'hbs', 
+    //     expressHbs({layoutsDir: 'views/layouts/', defaultLayout: 'main-layout',
+    //     extname: 'hbs'
+    // }));
+    // app.set('view engine', 'hbs');
 //next line only needed if folder is not named "views", for example if the folder was names templates... app.set('views', 'templates');
 app.set('views', 'views');
 
